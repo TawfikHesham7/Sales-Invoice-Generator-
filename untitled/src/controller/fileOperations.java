@@ -85,6 +85,7 @@ public class fileOperations// making public class called file operations
                 e.printStackTrace();
             }
         }
+        printFile( );
     }
     public void printFile( )// print method in console
     {

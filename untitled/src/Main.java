@@ -4,7 +4,9 @@ public class Main //main class
     public static void main(String[] args) {
         fileOperations newInvoice=new fileOperations();// make object from file operation method
         newInvoice.writeFile( );//write method from console to two csv"src\\InvoiceLine.csv","src\\InvoiceHeader.csv"
-        newInvoice.readFile("src\\InvoiceLine.csv","src\\InvoiceHeader.csv" );// read method from csv to arrays
-        newInvoice.printFile();// print method to console from reading arrays
+        newInvoice.readFile("src\\InvoiceLine.csv","src\\InvoiceHeader.csv" );/* read method from csv to arrays
+       and print it to console */
+
+        
     }
 }
